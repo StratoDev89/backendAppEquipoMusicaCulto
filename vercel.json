@@ -10,7 +10,7 @@
 
   "headers": [
     {
-      "source": "/api/(.*)",
+      "source": "/(.*)",
       "dest": "/build/index.js",
       "headers": [
         { "key": "Access-Control-Allow-Credentials", "value": "true" },
