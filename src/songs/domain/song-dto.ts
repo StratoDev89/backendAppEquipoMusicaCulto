@@ -8,4 +8,5 @@ export interface SongDto {
 }
 
 export interface CreateSongDto extends Omit<SongDto, "id"> {}
+
 export interface UpdateSongDto extends Partial<CreateSongDto> {}
