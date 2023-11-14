@@ -7,9 +7,11 @@
       "config": { "includeFiles": ["build/**"] }
     }
   ],
+
   "headers": [
     {
       "source": "/api/(.*)",
+      "dest": "/build/index.js",
       "headers": [
         { "key": "Access-Control-Allow-Credentials", "value": "true" },
         { "key": "Access-Control-Allow-Origin", "value": "*" },
