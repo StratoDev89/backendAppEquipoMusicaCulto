@@ -1,6 +1,12 @@
 import mongoose from "mongoose";
 
-const database = async (connection: any, host: any, user: any, password: any, db: any) => {
+const database = async (
+  connection: any,
+  host: any,
+  user: any,
+  password: any,
+  db: any
+) => {
   try {
     const URI = `${connection}://${host}`;
     await mongoose.connect(URI, {
