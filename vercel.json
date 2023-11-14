@@ -11,7 +11,7 @@
     {
       "src": "/(.*)",
       "dest": "/build/index.js",
-      "headers": [
+      "headers": 
         {
           "source": "/(.*)",
           "headers": [
@@ -27,7 +27,7 @@
             }
           ]
         }
-      ]
+      
     }
   ]
 }
